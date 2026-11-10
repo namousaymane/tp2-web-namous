@@ -55,7 +55,7 @@ public class Bb implements Serializable {
      * Service pour modifier la question et générer la réponse.
      */
     @Inject
-    private GenerateurReponse generateurReponse;
+    private LlmClient llmClient;
 
     /**
      * Contexte JSF. Utilisé pour qu'un message d'erreur s'affiche dans le formulaire.
